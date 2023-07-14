@@ -1,0 +1,84 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400px;
+}
+
+.contaner {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1400px;
+    padding: 125px;
+}
+
+
+.interior-body {
+    padding-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 205px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resourcer/interior.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text-on-image {
+    padding-top: 379px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #FFFFFF;
+
+    letter-spacing: -0.6px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 30px;
+    width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    letter-spacing: -1.8px;
+}
+
+h2 {
+    margin-top: 150px;
+    text-align: left;
+    font-size: 18px;
+    line-height: normal;
+    color: #121212;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+p.about-Us {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: normal;
+    width: 1048px;
+    font-size: 45px;
+    color: #121212;
+    letter-spacing: -1.35px;
+}
+
+
+
+a {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    width: 255px;
+    height: 67px;
+    line-height: 27px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    color: white;
+    background-color: #ad1818;
+}
