@@ -1,84 +1,168 @@
 body {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400px;
 }
-
 .contaner {
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 1400px;
-    padding: 125px;
+  margin: 0;
+  padding: 125px;
+  width: 1400px;
 }
 
-
-.interior-body {
-    padding-left: 45px;
-    margin-top: 30px;
-    margin-bottom: 205px;
-    width: 1150px;
-    height: 500px;
-    background-image: url('../resourcer/interior.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+.contaner_for_text_img {
+  width: 430px;
+  font-weight: 400px;
 }
 
-.text-on-image {
-    padding-top: 379px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    width: 430px;
-    font-size: 20px;
-    line-height: 27.32px;
-    color: #FFFFFF;
+.box_for_text_img {
+  position: relative;
+  box-sizing: border-box;
+}
+.img_text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 430px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 auto;
+  letter-spacing: -0.6px;
+  line-height: 27.32px;
+  color: #ffffff;
+}
 
-    letter-spacing: -0.6px;
+.section {
+  width: 100%;
+}
+
+.section_fon_black {
+  padding-left: 128px;
+  background-color: black;
+  box-sizing: border-box;
+  width: 1400px;
+  border: 1px solid white;
 }
 
 h1 {
-    text-align: left;
-    margin-bottom: 30px;
-    width: 956px;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    letter-spacing: -1.8px;
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  letter-spacing: -1.8px;
 }
 
 h2 {
-    margin-top: 150px;
-    text-align: left;
-    font-size: 18px;
-    line-height: normal;
-    color: #121212;
-    letter-spacing: -0.54px;
-    text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 25px;
+  letter-spacing: -0.54px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
-p.about-Us {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    line-height: normal;
-    width: 1048px;
-    font-size: 45px;
-    color: #121212;
-    letter-spacing: -1.35px;
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.9px;
 }
 
+.section_h2_black {
+  color: #ffffff;
+  margin-top: 0;
+  padding-top: 151px;
+  padding-bottom: 34px;
+}
 
+.text_fon_black {
+  padding-bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -0.9px;
+}
 
-a {
-    margin-top: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 5px;
-    width: 255px;
-    height: 67px;
-    line-height: 27px;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: -0.6px;
-    color: white;
-    background-color: #ad1818;
+.interior_img {
+  position: relative;
+
+  width: 1150px;
+  height: 500px;
+  background-image: url("../resourcer/interior.png");
+  background-repeat: no-repeat;
+}
+
+.paragraph_about {
+  margin-bottom: 50px;
+  width: 1048px;
+  height: 366px;
+  font-size: 45px;
+  font-weight: 400px;
+  letter-spacing: -1.35px;
+  line-height: normal;
+}
+
+.link {
+  font-family: Manrope;
+  border-radius: 5px;
+  width: 255px;
+  line-height: 27px;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  color: white;
+  background-color: #ad1818;
+  cursor: pointer;
+  padding: 20px 40px;
+  align-items: flex-start;
+}
+
+.link_big {
+  font-family: Manrope;
+  margin-top: 146px;
+  margin-bottom: 206px;
+  display: block;
+  width: 100%;
+  line-height: 153px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #ad1818;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  cursor: pointer;
+}
+
+.link_big:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+.project_more_link {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+  color: #ad1818;
+  letter-spacing: -0.6px;
+}
+
+.projects_header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400px;
+  letter-spacing: -0.9px;
+}
+.projects .project {
+  margin-bottom: 90px;
+}
+.image_section_black {
+  padding-bottom: 15px;
+}
+.service :first-child {
+  margin-bottom: 0;
+}
+.projects :first-child {
+  margin-top: 0;
 }
