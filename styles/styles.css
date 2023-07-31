@@ -1,10 +1,11 @@
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400px;
+  margin: 0 auto;
 }
 .contaner {
   margin: 0 auto;
-  padding: 125px;
+  padding-left: 125px;
   width: 1400px;
 }
 
