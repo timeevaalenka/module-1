@@ -8,8 +8,9 @@ body {
   margin: 0 auto;
   padding-left: 125px;
   width: 1400px;
-  
 }
+
+
 
 .container_for_text_img {
   width: 430px;
@@ -29,18 +30,6 @@ body {
   letter-spacing: -0.6px;
   line-height: 27.32px;
   color: #ffffff;
-}
-
-
-
-.section_fon_black {
-  width: 100%;
-  padding-left: 128px;
-  background-color: black;
-  min-width: 1400px;
- 
- 
-  
 }
 
 h1 {
@@ -72,13 +61,14 @@ h3 {
   padding-top: 151px;
   padding-bottom: 34px;
   padding-left: 125px;
-   
-  
 }
-.text_wrapper_black{
-  
 
+.section_fon_black {
+  width: 100%;
+  background-color: black;
+  min-width: 1400px;
 }
+
 .text_fon_black {
   padding-bottom: 60px;
   font-size: 30px;
@@ -116,11 +106,9 @@ h3 {
   background-color: #ad1818;
   cursor: pointer;
   padding: 20px 40px;
-  
 }
 
 .link_big {
-  
   margin-top: 146px;
   margin-bottom: 206px;
   display: block;
