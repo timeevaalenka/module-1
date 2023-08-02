@@ -60,7 +60,7 @@ h3 {
   margin-top: 0;
   padding-top: 151px;
   padding-bottom: 34px;
-  padding-left: 125px;
+  
 }
 
 .section_fon_black {
@@ -154,4 +154,49 @@ h3 {
 }
 .projects :first-child {
   margin-top: 0;
+}
+.nav-section {
+  background: #ffffff;
+}
+.nav_container {
+  margin: 0 auto;
+  width: 1400px;
+  padding-left: 124px;
+  padding-top: 33px;
+  padding-bottom: 74px;
+}
+.logo-link {
+  margin-right: 558.46px;
+  margin-top: 32.82px;
+  display: inline-block;
+
+}
+.logo {
+  display: block;
+  width: 126.889px;
+height: 21.42px;
+
+}
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.nav__link:nth-last-child(1) {
+  margin-right: 0;
+}
+.nav_link {
+  display: inline-block;
+  margin-top: 33px;
+  margin-right: 60px;
+  font-size: 18px;
+  line-height: 24.59px;
+  text-transform: uppercase; 
+ color: #121212; 
+ text-decoration: none;
+}
+.nav_link:hover,
+.nav__link_active {
+ text-decoration: underline;
+  opacity: 0.5;
 }
