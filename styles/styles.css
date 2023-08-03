@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400px;
@@ -202,3 +206,30 @@ height: 21.42px;
   opacity: 0.5;
 }
 
+.section-full-screen {
+  position: relative;
+  height: 717px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 1400px;
+  background-image: url("../resourcer/fullscreen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+
+}
+.container-for-full-screen {
+  position: absolute;
+  bottom: 60px;
+  left: 125px;
+ 
+  
+
+}
+
+.img_text-full-screen {
+  line-height: 40.98px;
+  width: 443px;
+  font-size: 30px;
+  color: #fff;
+}
