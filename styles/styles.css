@@ -57,9 +57,10 @@ h3 {
 
 .section_h2_black {
   color: #ffffff;
-  margin-top: 0;
+  margin: 0;
   padding-top: 151px;
   padding-bottom: 34px;
+ 
   
 }
 
@@ -95,6 +96,7 @@ h3 {
 }
 
 .link {
+  display: block;
   font-family: Manrope;
   border-radius: 5px;
   width: 255px;
@@ -109,7 +111,7 @@ h3 {
 }
 
 .link_big {
-  margin-top: 146px;
+  margin-top: 90px;
   margin-bottom: 206px;
   display: block;
   width: 1150px;
@@ -151,6 +153,7 @@ h3 {
 }
 .service :first-child {
   margin-bottom: 0;
+  
 }
 .projects :first-child {
   margin-top: 0;
@@ -195,8 +198,8 @@ height: 21.42px;
  color: #121212; 
  text-decoration: none;
 }
-.nav_link:hover,
-.nav__link_active {
+.nav_link:hover {
  text-decoration: underline;
   opacity: 0.5;
 }
+
