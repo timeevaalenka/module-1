@@ -70,7 +70,7 @@ h3 {
 
 .section_fon_black {
   width: 100%;
-  background-color: black;
+  background-color: #121212;
   
 }
 
@@ -79,6 +79,7 @@ h3 {
   font-size: 30px;
   color: #ffffff;
   letter-spacing: -0.9px;
+  
 }
 
 .interior_img {
@@ -91,7 +92,7 @@ h3 {
 }
 
 .paragraph_about {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   width: 1048px;
   height: 366px;
   font-size: 45px;
@@ -115,7 +116,7 @@ h3 {
 
 .link_big {
   margin-top: 90px;
-  margin-bottom: 206px;
+  margin-bottom: 150px;
   display: block;
   width: 1150px;
   line-height: 153px;
@@ -191,6 +192,9 @@ height: 21.42px;
 .nav__link:nth-last-child(1) {
   margin-right: 0;
 }
+.section_fon_black li:last-child {
+  padding-bottom: 90px;
+  }
 .nav_link {
   display: inline-block;
   margin-top: 33px;
@@ -216,6 +220,7 @@ height: 21.42px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+ 
 
 }
 .container-for-full-screen {
@@ -232,4 +237,5 @@ height: 21.42px;
   width: 443px;
   font-size: 30px;
   color: #fff;
+  
 }
