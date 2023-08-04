@@ -14,8 +14,6 @@ body {
   width: 1400px;
 }
 
-
-
 .container_for_text_img {
   width: 430px;
 }
@@ -60,31 +58,26 @@ h3 {
 }
 
 .section_h2_black {
-  color: #ffffff;
   margin: 0;
   padding-top: 151px;
   padding-bottom: 34px;
- 
-  
+  color: #ffffff;
 }
 
 .section_fon_black {
   width: 100%;
   background-color: #121212;
-  
 }
 
 .text_fon_black {
   padding-bottom: 60px;
   font-size: 30px;
-  color: #ffffff;
   letter-spacing: -0.9px;
-  
+  color: #ffffff;
 }
 
 .interior_img {
   position: relative;
-
   width: 1150px;
   height: 500px;
   background-image: url("../resourcer/interior.png");
@@ -111,7 +104,6 @@ h3 {
   background-color: #ad1818;
   cursor: pointer;
   text-decoration: none;
-  
 }
 
 .link_big {
@@ -120,11 +112,11 @@ h3 {
   display: block;
   width: 1150px;
   line-height: 153px;
-  border: 1px solid #ad1818;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
   color: #ad1818;
+  border: 1px solid #ad1818;
   font-size: 30px;
   letter-spacing: -0.9px;
   cursor: pointer;
@@ -139,8 +131,8 @@ h3 {
   font-size: 20px;
   letter-spacing: -0.6px;
   text-decoration: none;
-  color: #ad1818;
   letter-spacing: -0.6px;
+  color: #ad1818;
 }
 
 .projects_header {
@@ -157,7 +149,6 @@ h3 {
 }
 .service :first-child {
   margin-bottom: 0;
-  
 }
 .projects :first-child {
   margin-top: 0;
@@ -176,37 +167,34 @@ h3 {
   margin-right: 558.46px;
   margin-top: 32.82px;
   display: inline-block;
-
 }
 .logo {
   display: block;
   width: 126.889px;
-height: 21.42px;
-
+  height: 21.42px;
 }
 .nav {
   display: inline-block;
   vertical-align: top;
-  
 }
 .nav__link:nth-last-child(1) {
   margin-right: 0;
 }
 .section_fon_black li:last-child {
   padding-bottom: 90px;
-  }
+}
 .nav_link {
   display: inline-block;
   margin-top: 33px;
   margin-right: 60px;
   font-size: 18px;
   line-height: 24.59px;
-  text-transform: uppercase; 
- color: #121212; 
- text-decoration: none;
+  text-transform: uppercase;
+  color: #121212;
+  text-decoration: none;
 }
 .nav_link:hover {
- text-decoration: underline;
+  text-decoration: underline;
   opacity: 0.5;
 }
 
@@ -220,16 +208,12 @@ height: 21.42px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
- 
-
 }
+
 .container-for-full-screen {
   position: absolute;
   bottom: 60px;
   left: 125px;
- 
-  
-
 }
 
 .img_text-full-screen {
@@ -237,28 +221,21 @@ height: 21.42px;
   width: 443px;
   font-size: 30px;
   color: #fff;
-  
 }
-
-
-
-
-
 
 .text-wrapper-contact {
   margin-bottom: 160px;
   margin-top: 150px;
   width: 400px;
- margin-left: 125px;
+  margin-left: 125px;
 }
 
 .contact {
-position: relative;
-margin-bottom: 32px;
-font-size: 18px;
-line-height: 24.59px;
-text-transform: uppercase;
-
+  position: relative;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 24.59px;
+  text-transform: uppercase;
 }
 
 .contact:before {
@@ -266,7 +243,7 @@ text-transform: uppercase;
   position: absolute;
   bottom: 25px;
   left: -6;
-  content: '';
+  content: "";
   display: block;
   width: 24px;
   height: 24px;
@@ -274,8 +251,6 @@ text-transform: uppercase;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  
-
 }
 
 .number {
@@ -287,23 +262,20 @@ text-transform: uppercase;
   font-size: 60px;
   line-height: 60px;
   display: block;
-    margin-bottom: 30px;
-    text-decoration: none;
-  
-  }
+  margin-bottom: 30px;
+  text-decoration: none;
+}
 
 .mail-com {
-  
   display: inline-block;
-   font-size: 60px;
-letter-spacing: -1.8px;
-text-decoration: none;
-color: #121212;
-padding-bottom: 30px;
-font-size: 60px;
-line-height: 60px;
-display: block;
-
+  font-size: 60px;
+  letter-spacing: -1.8px;
+  text-decoration: none;
+  color: #121212;
+  padding-bottom: 30px;
+  font-size: 60px;
+  line-height: 60px;
+  display: block;
 }
 
 .mail-com:hover {
@@ -312,8 +284,4 @@ display: block;
 }
 .container-white {
   margin-left: 125px;
-
 }
-
-
-
