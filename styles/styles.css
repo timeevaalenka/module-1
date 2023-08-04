@@ -239,3 +239,81 @@ height: 21.42px;
   color: #fff;
   
 }
+
+
+
+
+
+
+.text-wrapper-contact {
+  margin-bottom: 160px;
+  margin-top: 150px;
+  width: 400px;
+ margin-left: 125px;
+}
+
+.contact {
+position: relative;
+margin-bottom: 32px;
+font-size: 18px;
+line-height: 24.59px;
+text-transform: uppercase;
+
+}
+
+.contact:before {
+  margin-bottom: 12px;
+  position: absolute;
+  bottom: 25px;
+  left: -6;
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../resourcer/sign-iphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  
+
+}
+
+.number {
+  color: #121212;
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  letter-spacing: -1.8px;
+  font-size: 60px;
+  line-height: 60px;
+  display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+  
+  }
+
+.mail-com {
+  
+  display: inline-block;
+   font-size: 60px;
+letter-spacing: -1.8px;
+text-decoration: none;
+color: #121212;
+padding-bottom: 30px;
+font-size: 60px;
+line-height: 60px;
+display: block;
+
+}
+
+.mail-com:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.container-white {
+  margin-left: 125px;
+
+}
+
+
+
