@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400px;
@@ -13,16 +12,22 @@ body {
   padding-left: 125px;
   width: 1400px;
 }
-
-.container_for_text_img {
-  width: 430px;
+.interiors__title {
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  height: 120px;
 }
-
-.box_for_text_img {
+.interior_img {
   position: relative;
-  box-sizing: border-box;
+  width: 1150px;
+  height: 500px;
+  background-image: url("../resourcer/interior.png");
+  background-repeat: no-repeat;
 }
-.img_text {
+.img_text_interior {
   position: absolute;
   bottom: 40px;
   left: 40px;
@@ -33,15 +38,7 @@ body {
   line-height: 27.32px;
   color: #ffffff;
 }
-
-h1 {
-  margin-bottom: 30px;
-  width: 956px;
-  font-size: 60px;
-  letter-spacing: -1.8px;
-}
-
-h2 {
+.description__title {
   margin-top: 150px;
   margin-bottom: 30px;
   font-size: 18px;
@@ -50,41 +47,21 @@ h2 {
   text-align: left;
   text-transform: uppercase;
 }
-
-h3 {
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: -0.9px;
-}
-
-.section_h2_black {
-  margin: 0;
-  padding-top: 151px;
-  padding-bottom: 34px;
-  color: #ffffff;
-}
-
-.section_fon_black {
-  width: 100%;
-  background-color: #121212;
-}
-
-.text_fon_black {
-  padding-bottom: 60px;
-  font-size: 30px;
-  letter-spacing: -0.9px;
-  color: #ffffff;
-}
-
-.interior_img {
+.description__btn-about {
   position: relative;
-  width: 1150px;
-  height: 500px;
-  background-image: url("../resourcer/interior.png");
-  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+  background-color: #ad1818;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 150px;
 }
 
-.paragraph_about {
+.description__paragraph_about {
   margin-bottom: 30px;
   width: 1048px;
   height: 366px;
@@ -92,21 +69,36 @@ h3 {
   letter-spacing: -1.35px;
   line-height: normal;
 }
-
-.link {
-  position: relative;
-  display: inline-block;
-  padding: 20px 40px;
-  border-radius: 5px;
+.projects__title {
+  margin-bottom: 30px;
+}
+.project_list {
+  margin-bottom: 90px;
+}
+.project_more_link {
+  cursor: pointer;
   font-size: 20px;
   letter-spacing: -0.6px;
-  color: white;
-  background-color: #ad1818;
-  cursor: pointer;
   text-decoration: none;
+  color: #ad1818;
+  line-height: 27.32px;
+  margin-bottom: 90px;
+}
+.projects_header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
 }
 
-.link_big {
+.projects .project {
+  margin-bottom: 90px;
+}
+.projects :first-child {
+  margin-top: 0;
+}
+
+.projects_btn_big {
   margin-top: 90px;
   margin-bottom: 150px;
   display: block;
@@ -121,38 +113,40 @@ h3 {
   letter-spacing: -0.9px;
   cursor: pointer;
 }
-
-.link_big:hover {
+.projects_btn_big:hover {
   color: #ffffff;
   background-color: #ad1818;
 }
 
-.project_more_link {
-  font-size: 20px;
-  letter-spacing: -0.6px;
-  text-decoration: none;
-  letter-spacing: -0.6px;
-  color: #ad1818;
-}
-
-.projects_header {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 30px;
-  letter-spacing: -0.9px;
-}
-.projects .project {
-  margin-bottom: 90px;
-}
-.image_section_black {
+.services {
+  width: 100%;
+  background-color: #121212;
   padding-bottom: 15px;
 }
-.service :first-child {
+.services__title {
+  margin: 0;
+  padding-top: 151px;
+  padding-bottom: 34px;
+  color: #ffffff;
+}
+.text__services {
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.9px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
+
+.services__list:nth-last-child(1) {
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+}
+
+.services :first-child {
   margin-bottom: 0;
 }
-.projects :first-child {
-  margin-top: 0;
-}
+
 .nav-section {
   background: #ffffff;
 }
@@ -180,7 +174,7 @@ h3 {
 .nav__link:nth-last-child(1) {
   margin-right: 0;
 }
-.section_fon_black li:last-child {
+.services_img li:last-child {
   padding-bottom: 90px;
 }
 .nav_link {
