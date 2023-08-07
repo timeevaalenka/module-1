@@ -16,29 +16,25 @@
   </head>
 
   <body>
-    <main>
       <header class="navigation">
-        <div class="nav_container">
-          <div class="nav-section">
+        <div class="container">
             <a class="logo-link" href="/">
-              <img
-                class="logo"
+              <img class="logo"
                 src="resourcer/logo_Metrika.png"
                 alt="Логотип Метрики"
               />
             </a>
-            <div class="nav">
-              <a class="nav_link nav__link_active" href="#description-jump"
-                >О НАС</a
-              >
-              <a class="nav_link" href="#projects-jump">ПРОЕКТЫ</a>
-              <a class="nav_link" href="#services__title-jump">УСЛУГИ</a>
-              <a class="nav_link" href="#contacts-jump">КОНТАКТЫ</a>
-            </div>
+            <nav class="navigation_header">
+              <a class="nav_link_header nav__link_active" href="#description-jump"
+                >О НАС</a>
+              <a class="nav_link_header" href="#projects-jump">ПРОЕКТЫ</a>
+              <a class="nav_link_header" href="#services__title-jump">УСЛУГИ</a>
+              <a class="nav_link_header" href="#contacts-jump">КОНТАКТЫ</a>
+            </nav>
           </div>
         </div>
       </header>
-
+      <main>
       <section class="Welcome">
         <div class="container">
           <h1 class="interiors__title">Современные и стильные интерьеры для комфортной жизни</h1>
@@ -165,30 +161,26 @@
         </div>
       </section>
 
-      <section class="full-screen">
-        <div class="section-full-screen">
-          <div class="container-for-full-screen">
-            <p class="img_text-full-screen">
+      <section class="full-screen-section">
+        <div class="full-screen-container">
+            <p class="full-screen-Image__text">
               Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
             </p>
           </div>
-        </div>
       </section>
 
       <section class="contacts">
-        <div class="container-wigth">
-          <div class="text-wrapper-contact">
-            <div id="contacts-jump">
-              <h3 class="contact">Контакты</h3>
+        <div class="container">
+          <div class="text-wrapper-contact" id="contacts-jump">
+              <h2 class="contacts__title">контакты</h2>
 
-              <a href="tel:+7 935  895-45-35" class="number"
+              <a class="contacts__phone" href="tel:+7 935  895-45-35" 
                 >+7 935 895-45-35</a
               >
-              <a href="mailto:hello@mail.com" class="mail-com"
+              <a class="contacts__email" href="mailto:hello@mail.com" 
                 >hello@mail.com</a
               >
             </div>
-          </div>
         </div>
       </section>
     </main>

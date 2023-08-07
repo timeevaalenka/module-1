@@ -6,6 +6,7 @@ body {
   font-weight: 400px;
   margin: 0 auto;
   width: 100%;
+  background-color: #fff;
 }
 .container {
   margin: 0 auto;
@@ -71,6 +72,9 @@ body {
 }
 .projects__title {
   margin-bottom: 30px;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
 }
 .project_list {
   margin-bottom: 90px;
@@ -128,6 +132,10 @@ body {
   padding-top: 151px;
   padding-bottom: 34px;
   color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
 }
 .text__services {
   font-size: 30px;
@@ -142,21 +150,35 @@ body {
   padding-bottom: 150px;
   margin-bottom: 0px;
 }
-
+.services_img li:last-child {
+  padding-bottom: 90px;
+}
 .services :first-child {
   margin-bottom: 0;
 }
 
-.nav-section {
+.navigation_header {
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 33px;
+}
+.navigation {
   background: #ffffff;
 }
-.nav_container {
-  margin: 0 auto;
-  width: 1400px;
-  padding-left: 124px;
-  padding-top: 33px;
-  padding-bottom: 74px;
+.nav_link_header {
+  margin-bottom: 70px;
+  margin-left: 57px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: -0.54px;
+
+  color: #121212;
 }
+
 .logo-link {
   margin-right: 558.46px;
   margin-top: 32.82px;
@@ -166,55 +188,56 @@ body {
   display: block;
   width: 126.889px;
   height: 21.42px;
+  margin-bottom: 73px;
+  
 }
-.nav {
-  display: inline-block;
-  vertical-align: top;
-}
-.nav__link:nth-last-child(1) {
+
+.nav_link_header:nth-last-child(1) {
   margin-right: 0;
 }
-.services_img li:last-child {
-  padding-bottom: 90px;
-}
-.nav_link {
-  display: inline-block;
-  margin-top: 33px;
-  margin-right: 60px;
-  font-size: 18px;
-  line-height: 24.59px;
-  text-transform: uppercase;
-  color: #121212;
-  text-decoration: none;
-}
-.nav_link:hover {
+
+.nav_link_header:hover {
   text-decoration: underline;
   opacity: 0.5;
 }
 
-.section-full-screen {
+.full-screen-container {
   position: relative;
   height: 717px;
-  margin: 0 auto;
   width: 100%;
-  min-width: 1400px;
   background-image: url("../resourcer/fullscreen.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
-
-.container-for-full-screen {
+.full-screen-Image__text {
   position: absolute;
   bottom: 60px;
   left: 125px;
-}
-
-.img_text-full-screen {
-  line-height: 40.98px;
-  width: 443px;
   font-size: 30px;
   color: #fff;
+  line-height: normal;
+  width: 443px;
+}
+.contacts__title:before {
+  content: "";
+  display: block;
+  margin-bottom: 12px;
+  margin-left: -5px;
+  width: 24px;
+  height: 24px;
+  letter-spacing: -1.8px;
+  font-weight: 400px;
+  position: relative;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 24.59px;
+  background-image: url("../resourcer/sign-iphone.png");
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  
 }
 
 .text-wrapper-contact {
@@ -223,59 +246,38 @@ body {
   width: 400px;
   margin-left: 125px;
 }
-
-.contact {
-  position: relative;
-  margin-bottom: 32px;
-  font-size: 18px;
-  line-height: 24.59px;
-  text-transform: uppercase;
-}
-
-.contact:before {
-  margin-bottom: 12px;
-  position: absolute;
-  bottom: 25px;
-  left: -6;
-  content: "";
+.contacts__phone {
   display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("../resourcer/sign-iphone.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-
-.number {
-  color: #121212;
+  margin-top: 32px;
   margin-bottom: 30px;
-  width: 956px;
+  padding-bottom: 10px;
+  width: 472px;
   font-size: 60px;
   letter-spacing: -1.8px;
-  font-size: 60px;
   line-height: 60px;
-  display: block;
   margin-bottom: 30px;
   text-decoration: none;
+  color: #121212;
+}
+.contacts__phone:hover {
+  opacity: 0.5;
+  text-decoration: underline;
 }
 
-.mail-com {
-  display: inline-block;
+.contacts__email {
+  display: block;
+  margin-bottom: 160px;
   font-size: 60px;
+  width: 412px;
   letter-spacing: -1.8px;
   text-decoration: none;
   color: #121212;
   padding-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
-  display: block;
 }
 
-.mail-com:hover {
+.contacts__email:hover {
   opacity: 0.5;
   text-decoration: underline;
-}
-.container-white {
-  margin-left: 125px;
 }
