@@ -165,14 +165,11 @@ body {
   margin-right: 94px;
   margin-bottom: 70px;
   width: 550px;
-  
 }
 .navigation {
   background: #ffffff;
 }
 .nav_link_header {
- 
-
   margin-left: 57px;
   font-size: 18px;
   font-weight: 400;
@@ -180,8 +177,7 @@ body {
   text-align: left;
   text-decoration: none;
   letter-spacing: -0.54px;
- 
-  
+
   color: #121212;
 }
 
@@ -207,18 +203,17 @@ body {
 }
 
 .full-screen-container {
-    margin: 0 auto;
-    position: relative;
-    height: 717px;
-    width: 100%;
-    min-width: 1400px;
-    background-image: url("../resourcer/fullscreen.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 20%;
-    padding: 0;
-  }
- 
+  margin: 0 auto;
+  position: relative;
+  height: 717px;
+  width: 100%;
+  min-width: 1400px;
+  background-image: url("../resourcer/fullscreen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+  padding: 0;
+}
 
 .full-screen-Image__text {
   position: absolute;
@@ -228,16 +223,8 @@ body {
   left: 125px;
   font-size: 30px;
   color: #fff;
-  
-  
+  letter-spacing: -0.9px;
 }
-
-
-
-
-
-
-
 
 .contacts__title:before {
   box-sizing: border-box;
