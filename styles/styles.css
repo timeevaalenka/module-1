@@ -4,15 +4,65 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400px;
-  margin: 0 auto;
-  width: 100%;
+
+  
   background-color: #fff;
+}
+.Welcome, .description, .projects {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 .container {
   margin: 0 auto;
-  padding-left: 125px;
-  width: 1400px;
+  box-sizing: border-box;
+  width: 1150px;
 }
+
+
+.navigation_header {
+  float: right;
+  margin-top: 33px;
+  margin-right: 94px;
+  margin-bottom: 70px;
+  width: 550px;
+}
+.navigation {
+  background: #ffffff;
+}
+.nav_link_header {
+  margin-left: 57px;
+  font-size: 18px;
+  line-height: 24.59px;
+  text-align: left;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: -0.54px;
+  color: #121212;
+}
+
+.logo-link {
+  margin-right: 507.46pxpx;
+  margin-top: 32.82px;
+  display: inline-block;
+}
+.logo {
+  display: block;
+  width: 126.889px;
+  height: 21.42px;
+  margin-bottom: 73px;
+}
+
+.nav_link_header:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav_link_header:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+
 .interiors__title {
   margin-bottom: 30px;
   width: 956px;
@@ -159,60 +209,19 @@ body {
   margin-bottom: 0;
 }
 
-.navigation_header {
-  float: right;
-  margin-top: 33px;
-  margin-right: 94px;
-  margin-bottom: 70px;
-  width: 550px;
-}
-.navigation {
-  background: #ffffff;
-}
-.nav_link_header {
-  margin-left: 57px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.59px;
-  text-align: left;
-  text-decoration: none;
-  letter-spacing: -0.54px;
-
-  color: #121212;
-}
-
-.logo-link {
-  margin-right: 507.46pxpx;
-  margin-top: 32.82px;
-  display: inline-block;
-}
-.logo {
-  display: block;
-  width: 126.889px;
-  height: 21.42px;
-  margin-bottom: 73px;
-}
-
-.nav_link_header:nth-last-child(1) {
-  margin-right: 0;
-}
-
-.nav_link_header:hover {
-  text-decoration: underline;
-  opacity: 0.5;
-}
-
-.full-screen-container {
-  margin: 0 auto;
+.full-screen-section {
   position: relative;
-  height: 717px;
   width: 100%;
-  min-width: 1400px;
+  height: 717px;
   background-image: url("../resourcer/fullscreen.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10%;
-  padding: 0;
+  background-position: 35%;
+}
+.full-screen-container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1150px;
 }
 
 .full-screen-Image__text {
