@@ -11,7 +11,7 @@ header {
   padding-top: 33px;
 }
 
-.Welcome,
+.interior,
 .description,
 .projects {
   width: 100%;
@@ -31,11 +31,11 @@ header {
   background-color: #121212;
 }
 
-.navigation_header {
+.header__navigation {
   float: right;
 }
 
-.nav_link_header {
+.header__nav_link {
   margin-right: 57px;
   height: 25px;
   line-height: 25px;
@@ -57,11 +57,11 @@ header {
   margin-bottom: 73px;
 }
 
-.nav_link_header:nth-last-child(1) {
+.header__nav_link:nth-last-child(1) {
   margin-right: 0;
 }
 
-.nav_link_header:hover {
+.header__nav_link:hover {
   opacity: 0.5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 0;
@@ -76,7 +76,7 @@ header {
   letter-spacing: -1.8px;
   height: 120px;
 }
-.interior_img {
+.interior__img {
   margin-top: 30px;
   position: relative;
   width: 1150px;
@@ -84,7 +84,7 @@ header {
   background-image: url("../resourcer/interior.png");
   background-repeat: no-repeat;
 }
-.img_text_interior {
+.interior__text {
   position: absolute;
   bottom: 38px;
   left: 41px;
@@ -104,7 +104,7 @@ header {
   text-align: left;
   text-transform: uppercase;
 }
-.description__btn-about {
+.description__btn {
   position: relative;
   display: inline-block;
   padding: 20px 40px;
@@ -119,7 +119,7 @@ header {
   line-height: 28px;
 }
 
-.description__paragraph_about {
+.description__about {
   margin-bottom: 35px;
   width: 1048px;
   height: 361px;
@@ -133,10 +133,10 @@ header {
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
-.project_list {
+.project__list {
   margin-bottom: 85px;
 }
-.project_more_link {
+.project__more {
   cursor: pointer;
   font-size: 20px;
   letter-spacing: -0.6px;
@@ -146,7 +146,7 @@ header {
   margin-bottom: 90px;
   margin-left: 2px;
 }
-.projects_header {
+.projects__header {
   margin-top: 21px;
   margin-bottom: 24px;
   font-size: 30px;
@@ -156,11 +156,12 @@ header {
 .projects .project {
   margin-bottom: 90px;
 }
+
 .projects :first-child {
   margin-top: 0;
 }
 
-.projects_btn_big {
+.projects__full-btn {
   margin-top: 90px;
   margin-bottom: 150px;
   display: block;
@@ -175,7 +176,8 @@ header {
   letter-spacing: -0.9px;
   cursor: pointer;
 }
-.projects_btn_big:hover {
+
+.projects__full-btn:hover {
   color: #ffffff;
   background-color: #ad1818;
 }
@@ -195,7 +197,7 @@ header {
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
-.text__services {
+.services__text {
   font-size: 30px;
   height: 40px;
   letter-spacing: -0.9px;
@@ -208,14 +210,16 @@ header {
 .services li:last-child {
   padding-bottom: 90px;
 }
-.services_img li:last-child {
+
+.services__img li:last-child {
   padding-bottom: 90px;
 }
+
 .services :first-child {
   margin-bottom: 0;
 }
 
-.full-screen-section {
+.full-screen {
   position: relative;
   width: 100%;
   height: 731px;
@@ -224,18 +228,19 @@ header {
   background-size: cover;
   background-position: 35%;
 }
-.full-screen-container {
+
+.full-screen__container {
   margin: 0 auto;
   box-sizing: border-box;
   width: 1150px;
 }
 
-.full-screen-Image__text {
+.full-screen__text {
   position: absolute;
   width: 443px;
   line-height: 41px;
   bottom: 71px;
-  left: 855px;
+  left: 379px;
   font-size: 30px;
   color: #fff;
   letter-spacing: -0.9px;
@@ -258,7 +263,7 @@ header {
   margin-bottom: 14px;
   margin-left: -6px;
   width: 24px;
-  height: 24px;
+  height: 27px;
   font-weight: 400px;
   position: relative;
   background-image: url("../resourcer/sign-iphone.png");
@@ -269,7 +274,7 @@ header {
   letter-spacing: -1.8px;
 }
 
-.text-wrapper-contact {
+.contact__box {
   margin-bottom: 160px;
   margin-top: 136px;
   width: 400px;
@@ -277,8 +282,9 @@ header {
 }
 .contacts__phone {
   display: block;
-  margin-top: 32px;
+  margin-top: 39px;
   margin-bottom: 25px;
+  padding-bottom: 10px;
   width: 472px;
   font-size: 60px;
   letter-spacing: -1.8px;
@@ -288,34 +294,36 @@ header {
   color: #121212;
   border-bottom: 3px solid white;
 }
+
 .contacts__phone:hover {
   opacity: 0.5;
-  text-decoration: underline;
+  border-bottom: 3px solid #121212;
 }
 
 .contacts__email {
+  padding-bottom: 10px;
   display: block;
   font-size: 60px;
   width: 400px;
-  letter-spacing: -2.8px;
+  letter-spacing: -1.8px;
   text-decoration: none;
   color: #121212;
   font-size: 60px;
-  line-height: 60px;
+  line-height: 44px;
   border-bottom: 3px solid white;
 }
 
 .contacts__email:hover {
   opacity: 0.5;
-  text-decoration: underline;
+  border-bottom: 3px solid #121212;
 }
 
-.container_footer {
+.footer__container {
   background-color: #121212;
   width: 100%;
 }
 
-.navigation_footer {
+.footer__navigation {
   padding-left: 14px;
   padding-top: 60px;
   height: 229px;
@@ -324,7 +332,7 @@ header {
   font: inherit;
 }
 
-.nav_link_footer {
+.footer__nav-link {
   margin-left: 54px;
   font-size: 18px;
   font-weight: 400;
@@ -333,10 +341,11 @@ header {
   color: #ffffff;
   line-height: 16px;
 }
-.nav_link_footer:first-child {
+
+.footer__nav-link:first-child {
   margin: 0;
 }
-.title_footer {
+.footer__title {
   padding-top: 92px;
   padding-bottom: 30px;
   font-size: 20px;
